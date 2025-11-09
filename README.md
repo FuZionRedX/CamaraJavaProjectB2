@@ -1,1 +1,0 @@
-# CamaraJavaProjectB2

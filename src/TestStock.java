@@ -13,6 +13,7 @@ public class TestStock {
         stock.ajouterOrdinateur(o1);
         stock.ajouterOrdinateur(o2);
         stock.ajouterOrdinateur(o3);
+        stock.ajouterOrdinateur(o4);
 
         stock.afficherStock();
 
