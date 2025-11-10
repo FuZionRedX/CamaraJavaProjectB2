@@ -1,3 +1,5 @@
+package model;
+
 public class Stock {
 
     private Ordinateur[] ordinateurs;
@@ -20,8 +22,8 @@ public class Stock {
         }
     }
 
-    //Methode Afficher Stock: Verifie en premier si stock vide, utilise une boucle pour afficher les ordinateurs
-    // en utilisant la methode afficherInfo() dans Ordinateur.java
+    //Methode Afficher model.Stock: Verifie en premier si stock vide, utilise une boucle pour afficher les ordinateurs
+    // en utilisant la methode afficherInfo() dans model.Ordinateur.java
     public void afficherStock(){
         if (nb_ordinateurs==0){
             System.out.println("Le stock est vide !");
@@ -32,7 +34,7 @@ public class Stock {
 
         for  (int i=0; i<nb_ordinateurs; i++){
             System.out.println("========================\n");
-            System.out.println("Ordinateur n° "+(i+1)+"\n");
+            System.out.println("model.Ordinateur n° "+(i+1)+"\n");
             ordinateurs[i].afficherInfo();
         }
     }
